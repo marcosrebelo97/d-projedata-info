@@ -31,7 +31,7 @@ public class Principal {
          * System.out.println(funcionarios);
          */
 
-        // 3,3 - IMPRIMIR TODOS OS FUNCIONÁRIOS
+        // 3.3 - IMPRIMIR TODOS OS FUNCIONÁRIOS
 
         /*
          * System.out.println("3.3 - Funcionários");
@@ -60,7 +60,7 @@ public class Principal {
             listaFuncionarios.forEach(System.out::println);
         });*/
 
-        // IMPRIMIR OS FUNCIONÁRIOS QUE FAZEM ANIVERSÁRIO EM OUTUBRO(MêS 10) E
+        // 3.8 - IMPRIMIR OS FUNCIONÁRIOS QUE FAZEM ANIVERSÁRIO EM OUTUBRO(MêS 10) E
         // DEZEMBRO(mês 12)
         /*
          * System.out.
@@ -73,7 +73,7 @@ public class Principal {
          * .forEach(System.out::println);
          */
 
-        // IMPRIMIR FUNCIONÁRIO COM A MAIOR IDADE
+        // 3.9 - IMPRIMIR FUNCIONÁRIO COM A MAIOR IDADE
         /*
          * System.out.println("\n3.9 - Funcionário mais velho:");
          * Funcionario funcionarioMaiorIdade = Collections.min(funcionarios,
@@ -84,7 +84,7 @@ public class Principal {
          * idadeFuncionarioMaiorIdade);
          */
 
-        // IMPRIMIR A LISTA DE FUNCIONÁRIOS POR ORDEM ALFABÉTICA
+        // 3.10 IMPRIMIR A LISTA DE FUNCIONÁRIOS POR ORDEM ALFABÉTICA
         /*
          * System.out.println("\n3.10 - Funcionários em ordem alfabética:");
          * List<Funcionario> funcionariosOrdenados = new ArrayList<>(funcionarios);
@@ -92,7 +92,7 @@ public class Principal {
          * funcionariosOrdenados.forEach(System.out::println);
          */
 
-        // IMPRIMIR O TOTAL DOS SALÁRIOS DOS FUNCIONÁRIOS
+        // 3.11 IMPRIMIR O TOTAL DOS SALÁRIOS DOS FUNCIONÁRIOS
         /*
          * System.out.println("\n3.11 - Total dos salários dos funcionários:");
          * BigDecimal totalSalarios = funcionarios.stream()
@@ -113,5 +113,5 @@ public class Principal {
          * });
          */
 
-    }
+}
 }
